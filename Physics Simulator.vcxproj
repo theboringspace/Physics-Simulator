@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -130,20 +130,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Body.cpp" />
-    <ClCompile Include="Collider.cpp" />
-    <ClCompile Include="Collision.cpp" />
-    <ClCompile Include="Force.cpp" />
-    <ClCompile Include="GravityForce.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="SpringForce.cpp" />
-    <ClCompile Include="World.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Body.h" />
     <ClInclude Include="Collider.h" />
     <ClInclude Include="Collision.h" />
-    <ClInclude Include="Force.h" />
+    <ClInclude Include="DragForce.h" />
+    <ClInclude Include="IForceGenerator.h" />
     <ClInclude Include="GravityForce.h" />
     <ClInclude Include="SpringForce.h" />
     <ClInclude Include="Vector2D.h" />
